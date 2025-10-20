@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color:#ECC2CE;
+  background-color: #3039e7;
 }
 
 span {
@@ -17,13 +17,13 @@ span {
 
 @keyframes animate {
   0% {
-      color: white;
+    color: white;
   }
   50% {
-      color: #f346238e;
+    color: #f346238e;
   }
   100% {
-      color: #F34423;
+    color: #f34423;
   }
 }
 
