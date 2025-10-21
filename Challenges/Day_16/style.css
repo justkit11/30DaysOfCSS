@@ -1,9 +1,9 @@
 body {
   height: 100vh;
   padding: 0 20px;
-  background: linear-gradient(0, #120c56, #000000);
+  background: linear-gradient(0, #060608, #000000);
 }
-  
+
 button {
   z-index: 1;
   width: 100px;
@@ -17,14 +17,13 @@ button {
   border-bottom-right-radius: 20px;
   transition: 0.8s ease-out;
 }
-  
 
 div:hover button::after {
   z-index: -1;
   content: "";
   width: 320px;
   height: 20px;
-  background: linear-gradient(#F34423, #A12A13);
+  background: linear-gradient(#f34423, #a12a13);
   box-shadow: 7px 5px 10px #651708;
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
@@ -32,7 +31,7 @@ div:hover button::after {
   top: 0%;
   left: 95%;
 }
-  
+
 div {
   height: 100%;
   width: 100%;
@@ -41,11 +40,11 @@ div {
   align-items: center;
   justify-content: center;
 }
-  
+
 div:hover button {
   transform: rotate(200deg);
 }
-  
+
 div:active button {
   transform: rotate(-250deg);
 }
